@@ -1,9 +1,10 @@
 FILES = paper.md \
 		metadata.yaml
 
-OUTPUT = build
+OUTPUT = ..
 
-FLAGS = --bibliography=bibliography.bib \
+FLAGS = --citeproc \
+		--bibliography=bibliography.bib \
 		--csl=bibliography.csl \
 		-s \
 		-f markdown
